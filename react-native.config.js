@@ -3,7 +3,7 @@ module.exports = {
     platforms: {
       android: null,
       ios: {
-        sharedLibraries: ["PocketSVG.framework"]
+        sharedLibraries: ["PocketSVG.framework", "libRCTARKit.a"]
       }
     }
   }
